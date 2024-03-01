@@ -112,8 +112,6 @@ namespace SupermarketSimulatorSaveChanger
                 }
 
                 File.WriteAllLines(cfgFile, lines);
-
-                Console.WriteLine("Nazwa została pomyślnie zapisana do pliku konfiguracyjnego.");
             }
         }
         static int FindLineIndexWithSection(string[] lines, string section)
