@@ -54,11 +54,15 @@
             this.Slot3 = new System.Windows.Forms.Label();
             this.Slot4 = new System.Windows.Forms.Label();
             this.Slot5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btn_OpenFile = new System.Windows.Forms.Button();
+            this.text_GamePath = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Load1
             // 
-            this.btn_Load1.Location = new System.Drawing.Point(283, 44);
+            this.btn_Load1.Location = new System.Drawing.Point(283, 32);
             this.btn_Load1.Name = "btn_Load1";
             this.btn_Load1.Size = new System.Drawing.Size(75, 23);
             this.btn_Load1.TabIndex = 0;
@@ -68,7 +72,7 @@
             // 
             // btn_Load2
             // 
-            this.btn_Load2.Location = new System.Drawing.Point(283, 74);
+            this.btn_Load2.Location = new System.Drawing.Point(283, 62);
             this.btn_Load2.Name = "btn_Load2";
             this.btn_Load2.Size = new System.Drawing.Size(75, 23);
             this.btn_Load2.TabIndex = 1;
@@ -78,7 +82,7 @@
             // 
             // btn_Load3
             // 
-            this.btn_Load3.Location = new System.Drawing.Point(283, 105);
+            this.btn_Load3.Location = new System.Drawing.Point(283, 93);
             this.btn_Load3.Name = "btn_Load3";
             this.btn_Load3.Size = new System.Drawing.Size(75, 23);
             this.btn_Load3.TabIndex = 2;
@@ -88,7 +92,7 @@
             // 
             // btn_Load4
             // 
-            this.btn_Load4.Location = new System.Drawing.Point(283, 134);
+            this.btn_Load4.Location = new System.Drawing.Point(283, 122);
             this.btn_Load4.Name = "btn_Load4";
             this.btn_Load4.Size = new System.Drawing.Size(75, 23);
             this.btn_Load4.TabIndex = 3;
@@ -98,7 +102,7 @@
             // 
             // btn_Load5
             // 
-            this.btn_Load5.Location = new System.Drawing.Point(283, 163);
+            this.btn_Load5.Location = new System.Drawing.Point(283, 151);
             this.btn_Load5.Name = "btn_Load5";
             this.btn_Load5.Size = new System.Drawing.Size(75, 23);
             this.btn_Load5.TabIndex = 4;
@@ -110,7 +114,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(52, 40);
+            this.label1.Location = new System.Drawing.Point(52, 28);
             this.label1.MaximumSize = new System.Drawing.Size(150, 30);
             this.label1.MinimumSize = new System.Drawing.Size(150, 30);
             this.label1.Name = "label1";
@@ -121,7 +125,7 @@
             // 
             // btn_Rename1
             // 
-            this.btn_Rename1.Location = new System.Drawing.Point(364, 44);
+            this.btn_Rename1.Location = new System.Drawing.Point(364, 32);
             this.btn_Rename1.Name = "btn_Rename1";
             this.btn_Rename1.Size = new System.Drawing.Size(75, 23);
             this.btn_Rename1.TabIndex = 10;
@@ -131,7 +135,7 @@
             // 
             // btn_Rename2
             // 
-            this.btn_Rename2.Location = new System.Drawing.Point(364, 74);
+            this.btn_Rename2.Location = new System.Drawing.Point(364, 62);
             this.btn_Rename2.Name = "btn_Rename2";
             this.btn_Rename2.Size = new System.Drawing.Size(75, 23);
             this.btn_Rename2.TabIndex = 11;
@@ -141,7 +145,7 @@
             // 
             // btn_Rename3
             // 
-            this.btn_Rename3.Location = new System.Drawing.Point(364, 105);
+            this.btn_Rename3.Location = new System.Drawing.Point(364, 93);
             this.btn_Rename3.Name = "btn_Rename3";
             this.btn_Rename3.Size = new System.Drawing.Size(75, 23);
             this.btn_Rename3.TabIndex = 12;
@@ -151,7 +155,7 @@
             // 
             // btn_Rename4
             // 
-            this.btn_Rename4.Location = new System.Drawing.Point(364, 134);
+            this.btn_Rename4.Location = new System.Drawing.Point(364, 122);
             this.btn_Rename4.Name = "btn_Rename4";
             this.btn_Rename4.Size = new System.Drawing.Size(75, 23);
             this.btn_Rename4.TabIndex = 13;
@@ -161,7 +165,7 @@
             // 
             // btn_Rename5
             // 
-            this.btn_Rename5.Location = new System.Drawing.Point(364, 163);
+            this.btn_Rename5.Location = new System.Drawing.Point(364, 151);
             this.btn_Rename5.Name = "btn_Rename5";
             this.btn_Rename5.Size = new System.Drawing.Size(75, 23);
             this.btn_Rename5.TabIndex = 14;
@@ -173,7 +177,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(52, 70);
+            this.label2.Location = new System.Drawing.Point(52, 58);
             this.label2.MaximumSize = new System.Drawing.Size(150, 30);
             this.label2.MinimumSize = new System.Drawing.Size(150, 30);
             this.label2.Name = "label2";
@@ -186,7 +190,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(52, 100);
+            this.label3.Location = new System.Drawing.Point(52, 88);
             this.label3.MaximumSize = new System.Drawing.Size(150, 30);
             this.label3.MinimumSize = new System.Drawing.Size(150, 30);
             this.label3.Name = "label3";
@@ -199,7 +203,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(52, 130);
+            this.label4.Location = new System.Drawing.Point(52, 118);
             this.label4.MaximumSize = new System.Drawing.Size(150, 30);
             this.label4.MinimumSize = new System.Drawing.Size(150, 30);
             this.label4.Name = "label4";
@@ -212,7 +216,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(52, 159);
+            this.label5.Location = new System.Drawing.Point(52, 147);
             this.label5.MaximumSize = new System.Drawing.Size(150, 30);
             this.label5.MinimumSize = new System.Drawing.Size(150, 30);
             this.label5.Name = "label5";
@@ -223,7 +227,7 @@
             // 
             // btn_Save1
             // 
-            this.btn_Save1.Location = new System.Drawing.Point(202, 44);
+            this.btn_Save1.Location = new System.Drawing.Point(202, 32);
             this.btn_Save1.Name = "btn_Save1";
             this.btn_Save1.Size = new System.Drawing.Size(75, 23);
             this.btn_Save1.TabIndex = 10;
@@ -233,7 +237,7 @@
             // 
             // btn_Save2
             // 
-            this.btn_Save2.Location = new System.Drawing.Point(202, 74);
+            this.btn_Save2.Location = new System.Drawing.Point(202, 62);
             this.btn_Save2.Name = "btn_Save2";
             this.btn_Save2.Size = new System.Drawing.Size(75, 23);
             this.btn_Save2.TabIndex = 11;
@@ -243,7 +247,7 @@
             // 
             // btn_Save3
             // 
-            this.btn_Save3.Location = new System.Drawing.Point(202, 104);
+            this.btn_Save3.Location = new System.Drawing.Point(202, 92);
             this.btn_Save3.Name = "btn_Save3";
             this.btn_Save3.Size = new System.Drawing.Size(75, 23);
             this.btn_Save3.TabIndex = 12;
@@ -253,7 +257,7 @@
             // 
             // btn_Save4
             // 
-            this.btn_Save4.Location = new System.Drawing.Point(202, 133);
+            this.btn_Save4.Location = new System.Drawing.Point(202, 121);
             this.btn_Save4.Name = "btn_Save4";
             this.btn_Save4.Size = new System.Drawing.Size(75, 23);
             this.btn_Save4.TabIndex = 13;
@@ -263,7 +267,7 @@
             // 
             // btn_Save5
             // 
-            this.btn_Save5.Location = new System.Drawing.Point(202, 163);
+            this.btn_Save5.Location = new System.Drawing.Point(202, 151);
             this.btn_Save5.Name = "btn_Save5";
             this.btn_Save5.Size = new System.Drawing.Size(75, 23);
             this.btn_Save5.TabIndex = 14;
@@ -284,7 +288,7 @@
             // Slot1
             // 
             this.Slot1.AutoSize = true;
-            this.Slot1.Location = new System.Drawing.Point(12, 49);
+            this.Slot1.Location = new System.Drawing.Point(12, 37);
             this.Slot1.Name = "Slot1";
             this.Slot1.Size = new System.Drawing.Size(34, 13);
             this.Slot1.TabIndex = 16;
@@ -293,7 +297,7 @@
             // Slot2
             // 
             this.Slot2.AutoSize = true;
-            this.Slot2.Location = new System.Drawing.Point(12, 84);
+            this.Slot2.Location = new System.Drawing.Point(12, 72);
             this.Slot2.Name = "Slot2";
             this.Slot2.Size = new System.Drawing.Size(34, 13);
             this.Slot2.TabIndex = 16;
@@ -302,7 +306,7 @@
             // Slot3
             // 
             this.Slot3.AutoSize = true;
-            this.Slot3.Location = new System.Drawing.Point(12, 115);
+            this.Slot3.Location = new System.Drawing.Point(12, 103);
             this.Slot3.Name = "Slot3";
             this.Slot3.Size = new System.Drawing.Size(34, 13);
             this.Slot3.TabIndex = 16;
@@ -311,7 +315,7 @@
             // Slot4
             // 
             this.Slot4.AutoSize = true;
-            this.Slot4.Location = new System.Drawing.Point(12, 144);
+            this.Slot4.Location = new System.Drawing.Point(12, 132);
             this.Slot4.Name = "Slot4";
             this.Slot4.Size = new System.Drawing.Size(34, 13);
             this.Slot4.TabIndex = 16;
@@ -320,18 +324,50 @@
             // Slot5
             // 
             this.Slot5.AutoSize = true;
-            this.Slot5.Location = new System.Drawing.Point(12, 173);
+            this.Slot5.Location = new System.Drawing.Point(12, 161);
             this.Slot5.Name = "Slot5";
             this.Slot5.Size = new System.Drawing.Size(34, 13);
             this.Slot5.TabIndex = 16;
             this.Slot5.Text = "Slot 5";
-            this.Slot5.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(3, 207);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(424, 20);
+            this.textBox1.TabIndex = 17;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btn_OpenFile
+            // 
+            this.btn_OpenFile.Location = new System.Drawing.Point(428, 205);
+            this.btn_OpenFile.Name = "btn_OpenFile";
+            this.btn_OpenFile.Size = new System.Drawing.Size(31, 23);
+            this.btn_OpenFile.TabIndex = 18;
+            this.btn_OpenFile.Text = "...";
+            this.btn_OpenFile.UseVisualStyleBackColor = true;
+            this.btn_OpenFile.Click += new System.EventHandler(this.btn_OpenFile_Click);
+            // 
+            // text_GamePath
+            // 
+            this.text_GamePath.AutoSize = true;
+            this.text_GamePath.Location = new System.Drawing.Point(7, 191);
+            this.text_GamePath.Name = "text_GamePath";
+            this.text_GamePath.Size = new System.Drawing.Size(322, 13);
+            this.text_GamePath.TabIndex = 19;
+            this.text_GamePath.Text = "Game .exe file path (filled in, starts the game after loading the save)";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 209);
+            this.ClientSize = new System.Drawing.Size(463, 230);
+            this.Controls.Add(this.text_GamePath);
+            this.Controls.Add(this.btn_OpenFile);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Slot5);
             this.Controls.Add(this.Slot4);
             this.Controls.Add(this.Slot3);
@@ -360,7 +396,7 @@
             this.Controls.Add(this.btn_Load1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Supermarket Simulator Save Manager by AdyUPL";
+            this.Text = "Supermarket Simulator Save Changer by AdyUPL";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -394,6 +430,10 @@
         private System.Windows.Forms.Label Slot3;
         private System.Windows.Forms.Label Slot4;
         private System.Windows.Forms.Label Slot5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btn_OpenFile;
+        private System.Windows.Forms.Label text_GamePath;
     }
 }
 
