@@ -15,6 +15,7 @@ Update 1.0.1
 
 + Load button saving current game before load new one
 + Load button start game if you fill textbox with game exe file path
+  
 ![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/e39c8f6e-2323-4068-8c0c-76fc98fc8fa8)
 
 
