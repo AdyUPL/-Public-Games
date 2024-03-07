@@ -1,2 +1,5 @@
-![image](https://github.com/AdyUPL/Supermarket-Simulator-PL_Project/assets/52855292/c1b3c0c6-57bc-42e4-99e6-302bf79e57f2)
-![image](https://github.com/AdyUPL/Supermarket-Simulator-PL_Project/assets/52855292/745803a3-aca8-4385-b9c3-4a83161c9b4c)
+![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/95a2d2cd-4781-470a-b6ad-ef5b5de5ca33)
+![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/fa027f8c-877c-4ec1-bd32-b8d1a14b8f55)
+![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/10dba43a-e85a-4ece-96e5-f3bad711259b)
+![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/e13187db-9b3a-4700-a483-ddad37e97f6b)
+
