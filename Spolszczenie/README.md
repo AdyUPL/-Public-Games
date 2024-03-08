@@ -2,7 +2,7 @@ Pobierasz Polish.zip
 tam są dwa pliki:
 
 Catalog.json
-Wrzucasz w \SteamLibrary\steamapps\common\Supermarket Simulator\Supermarket Simulator_Data\StreamingAssets\aa  <- Czyli tam gdzie masz gre
+Wrzucasz w \SteamLibrary\steamapps\common\Supermarket Simulator\Supermarket Simulator_Data\StreamingAssets\aa    <- Czyli tam gdzie masz gre
 
 
 localization-string-tables-english(en)_assets_all.bundle
