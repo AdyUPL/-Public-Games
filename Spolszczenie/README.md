@@ -1,3 +1,19 @@
+Pobierasz Polish.zip
+tam są dwa pliki:
+
+Catalog.json
+Wrzucasz w \SteamLibrary\steamapps\common\Supermarket Simulator\Supermarket Simulator_Data\StreamingAssets\aa  <- Czyli tam gdzie masz gre
+
+
+localization-string-tables-english(en)_assets_all.bundle
+Wrzucasz w \SteamLibrary\steamapps\common\Supermarket Simulator\Supermarket Simulator_Data\StreamingAssets\aa\StandaloneWindows64
+
+
+Oczywiście oryginalne pliki sobie gdzieś zachowaj 🙂
+
+Później przygotuję programik, który to zrobi za ciebie.
+
+--------------------------------------------------------------------------------
 ![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/95a2d2cd-4781-470a-b6ad-ef5b5de5ca33)
 ![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/fa027f8c-877c-4ec1-bd32-b8d1a14b8f55)
 ![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/10dba43a-e85a-4ece-96e5-f3bad711259b)
