@@ -2,7 +2,7 @@ Oczywiście oryginalne pliki sobie gdzieś zachowaj 🙂
 
 Pobrane pliki wrzuć w katalog z grą
 
-[LINK](https://cloud.zdz.katowice.pl/index.php/s/SgMofBZZwTN6ikQ)
+[LINK](https://cloud.zdz.katowice.pl/index.php/s/SgMofBZZwTN6ikQ/download/Supermarket%20Simulator_Data.zip)
 
 Później przygotuję programik, który to zrobi za ciebie.
 
