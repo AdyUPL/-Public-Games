@@ -1,7 +1,7 @@
 Oczywiście oryginalne pliki sobie gdzieś zachowaj 🙂
 
 Pobrany plik wypakuj w katalogu z grą
-V0.1.1.1
+V0.1.2.2
 [LINK](https://cloud.zdz.katowice.pl/index.php/s/SgMofBZZwTN6ikQ/download/Supermarket%20Simulator_Data.zip)
 
 Później przygotuję programik, który to zrobi za ciebie.
