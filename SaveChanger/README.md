@@ -18,7 +18,8 @@ Update 1.0.2
 + Add button "Open Config Path" <- Program config file folder
 + Fixed crash, when you try Save game before created New Game
 + Save button remembers the current slot name
-  
+![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/2e1ba75a-8fb8-4b0b-a5f7-e06e53e4dd42)
+
 ----
 Update 1.0.1
 
