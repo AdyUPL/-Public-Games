@@ -11,6 +11,15 @@ https://www.virustotal.com/gui/file/c12239f131c0d8dc5202ed27f4bd349e46cd89c8ca9c
 ( I don't know why MaxSecure see this like Trojan :/ )
 
 ----
+Update 1.0.2
++ Add "Cloud Folder path" - You can now move your save's to external or cloud folder
++ Add button "Open Local Save path"
++ Add button ' Open Cloud Save path"
++ Add button "Open Config Path" <- Program config file folder
++ Fixed crash, when you try Save game before created New Game
++ Save button remembers the current slot name
+  
+----
 Update 1.0.1
 
 + Load button saving current game before load new one
