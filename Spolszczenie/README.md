@@ -1,12 +1,8 @@
 Oczywiście oryginalne pliki sobie gdzieś zachowaj 🙂
 
 Pobrany plik wypakuj w katalogu z grą
-V0.1.2.2
-[LINK](https://cloud.zdz.katowice.pl/index.php/s/SgMofBZZwTN6ikQ/download/Supermarket%20Simulator_Data.zip)
-
-STRONA NEXUS: [LINK](https://www.nexusmods.com/supermarketsimulator/mods/22)
-
-Później przygotuję programik, który to zrobi za ciebie.
+V0.1.2.3
+[LINK](https://www.nexusmods.com/supermarketsimulator/mods/22)
 
 
 ![image](https://github.com/AdyUPL/SupermarketSimulator-Addons/assets/52855292/cbae5433-4b09-4967-a52d-75a6c5dd6e1c)
