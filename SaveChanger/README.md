@@ -1,8 +1,7 @@
 To change save you must close the game.
 
 
-1. Download SupermarketSimulatorSaveChanger from Nexus Mods
-   (Link: https://www.nexusmods.com/supermarketsimulator/mods/29?tab=description )
+1. Download SupermarketSimulatorSaveChanger from [Nexus Mods](https://www.nexusmods.com/supermarketsimulator/mods/29?tab=description)
 2. Extract
 3. Run
 
