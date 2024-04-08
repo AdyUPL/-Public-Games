@@ -1,7 +1,8 @@
 To change save you must close the game.
 
 
-1. Download SupermarketSimulatorSaveChanger.zip
+1. Download SupermarketSimulatorSaveChanger from Nexus Mods
+   (Link: https://www.nexusmods.com/supermarketsimulator/mods/29?tab=description )
 2. Extract
 3. Run
 
@@ -9,7 +10,22 @@ VirusScan:
 https://www.virustotal.com/gui/file/c12239f131c0d8dc5202ed27f4bd349e46cd89c8ca9cf87691d173f076fd37f1/detection
 
 ( I don't know why MaxSecure see this like Trojan :/ )
-
+----
+Version 1.1.2
++ New button - Settings.
++ Moved all textboxes with path to Settings.
++ Moved save,cloud,config buttons to Settings.
++ Add support for multi-user profile.
++ Change some functions.
+----
+Version 1.1.1
++ Adds Protect save file when you try load empty slot
++ Deletes files in the slot folder before writing new ones
++ Fixes a bug with saving when Cancel was clicked
+----
+Version 1.1.0
++ New Interface
++ Support version 0.1.2.3+
 ----
 Update 1.0.2
 + Add "Cloud Folder path" - You can now move your save's to external or cloud folder
