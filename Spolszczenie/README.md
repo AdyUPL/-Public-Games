@@ -1,7 +1,7 @@
 Oczywiście oryginalne pliki sobie gdzieś zachowaj 🙂
 
 Pobrany plik wypakuj w katalogu z grą
-V0.1.2.3
+V0.1.2.4
 [LINK](https://www.nexusmods.com/supermarketsimulator/mods/22)
 
 
